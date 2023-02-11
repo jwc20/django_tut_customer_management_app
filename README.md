@@ -1,0 +1,1 @@
+# django_tut_customer_management_app
