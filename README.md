@@ -48,3 +48,12 @@ python3 manage.py startapp accounts
 - Add styling for status component in the main template.
 - Modify products template.
 - Modify customer template.
+
+### Part 4
+
+- Create static folder and folders for css, js, and images inside it.
+- Create main.css inside css folder.
+- Configure settings.py to load static file and import static file main.css in main.html.
+
+- Add logo to images folder.
+- Configure settings to load images and import logo file in navbar.html
