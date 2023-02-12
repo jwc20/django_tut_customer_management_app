@@ -23,23 +23,28 @@ python3 manage.py startapp accounts
 - Create the urls in the accounts app.
 - Connect the urls from the crm1 project to the accounts app.
 
-### Part 3 
-- In the accounts folder, create a templates folder. 
+### Part 3
+
+- In the accounts folder, create a templates folder.
 - In the templates folder, create another accounts folder
 - Create a dashboard template in the accounts folder.
-- Modify the view to render the dashboard template. 
-- Repeat the steps to create customer and products template. 
+- Modify the view to render the dashboard template.
+- Repeat the steps to create customer and products template.
 
 (Template Inheritance)
+
 - Create a main template where all other templates will inherit from.
 - Modify all templates so they inherit from the main template.
-- Create a navbar template and include it in the main template. 
+- Create a navbar template and include it in the main template.
 
 (Copy/Paste from video)
+
 - Use bootstrap to style navbar (Use cdn link).
-- Modify navbar template using bootstrap. 
+  [cdn](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+- Modify navbar template using bootstrap.
 - Modify dashboard template.
-- Create status template. 
+- Create status template.
 - Add styling for status component in the main template.
-- Modify products template. 
+- Modify products template.
 - Modify customer template.
