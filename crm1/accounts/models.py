@@ -24,7 +24,7 @@ class Product(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, null=True)
 
 
-class order(models.Model):
+class Order(models.Model):
     STATUS = (
         ("Pending", "Pending"),
         ("Out for delivery", "Out for delivery"),
