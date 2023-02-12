@@ -24,8 +24,7 @@ class Product(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, null=True)
 
 
-class order(models.model):
-
+class order(models.Model):
     STATUS = (
         ("Pending", "Pending"),
         ("Out for delivery", "Out for delivery"),
@@ -34,5 +33,5 @@ class order(models.model):
 
     # customer =
     # product =
-    date_created = models.datetimefield(auto_now_add=true, null=true)
-    status = models.charfield(max_length=200, null=true, choices=STATUS)
+    date_created = models.DateTimeField(auto_now_add=True, null=True)
+    status = models.CharField(max_length=200, null=True, choices=STATUS)
