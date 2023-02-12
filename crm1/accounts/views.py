@@ -6,8 +6,8 @@ def home(request):
     return render(request, 'accounts/dashboard.html')
 
 
-def product(request):
-    return render(request, 'accounts/product.html')
+def products(request):
+    return render(request, 'accounts/products.html')
 
 
 def customer(request):
