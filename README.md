@@ -2,6 +2,8 @@
 
 [Tutorial](https://www.youtube.com/watch?v=xv_bwpA_aEA&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO)
 
+## Instructions
+
 ### Part 1
 
 ```
@@ -57,3 +59,30 @@ python3 manage.py startapp accounts
 
 - Add logo to images folder.
 - Configure settings to load images and import logo file in navbar.html
+
+### Part 5
+
+```
+python3 manage.py migrate
+python3 manage.py createsuperuser
+```
+
+- create model for customer
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+- import model customer in admin.py
+
+- Create a customer data in the admin page
+- Create a function in models.py to return customer name as string in admin panel
+- Create models for product and order
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+- import models product and order in admin.py
