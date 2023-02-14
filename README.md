@@ -110,6 +110,13 @@ python3 manage.py createsuperuser
 ### Part 7 
 - Django query demonstration.
 
+### Part 8 
+- In views, pass products into the products template. 
+- Create a table for products in the template.
+- In views, pass customer into the customers template. 
+- Create a table for customers in the template.
+- In views, create variables for total orders, delivered orders, and pending orders and pass them into the dashboard template.
+- Show the order status in template.
 
 
 
