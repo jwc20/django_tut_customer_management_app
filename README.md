@@ -86,3 +86,24 @@ python3 manage.py migrate
 ```
 
 - import models product and order in admin.py
+
+
+#### Part 6 
+
+- Set product and customer to have one-to-many relationship with order.
+```
+python3 manage.py migrate
+python3 manage.py createsuperuser
+```
+- Create a model for tags.
+```
+python3 manage.py migrate
+python3 manage.py createsuperuser
+```
+
+
+
+
+
+
+
