@@ -11,11 +11,12 @@ def home(request):
     total_customers = customers.count()
 
     total_orders = orders.count()
-    delivered = orders.filter("Delivered").count()
-    pending = orders.filter("Pending").count()
+    delivered = orders.filter(status="Delivered").count()
+    pending = orders.filter(status="Pending").count()
 
     context = {
         "orders": orders,
+        "total_orders": total_orders,
         "customers": customers,
         "delivered": delivered,
         "pending": pending,
