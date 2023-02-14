@@ -124,6 +124,9 @@ python3 manage.py createsuperuser
 - Add total orders to customer page. 
 - Add styling to buttons.
 
+### Part 9.5 
+- Add dynamic url for navbar and customer in dashboard. 
+- Add styling to buttons.
 
 
 
