@@ -118,6 +118,11 @@ python3 manage.py createsuperuser
 - In views, create variables for total orders, delivered orders, and pending orders and pass them into the dashboard template.
 - Show the order status in template.
 
+### Part 9 
+- Add dynamic url for each individual customers. 
+- Pass customer object to template and create table for the data. 
+- Add total orders to customer page. 
+- Add styling to buttons.
 
 
 
