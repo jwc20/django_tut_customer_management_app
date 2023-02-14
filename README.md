@@ -100,6 +100,12 @@ python3 manage.py createsuperuser
 python3 manage.py migrate
 python3 manage.py createsuperuser
 ```
+- Set product to have many-to-many relationship with tag. 
+
+```
+python3 manage.py migrate
+python3 manage.py createsuperuser
+```
 
 
 
