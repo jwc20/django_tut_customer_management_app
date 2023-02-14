@@ -4,6 +4,8 @@
 {% block content %}
 
 <form action="" main="POST">
+  {% csrf_token %}
+  {{form}}
 
   <input type="submit" name="Submit">
 
