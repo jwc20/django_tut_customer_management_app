@@ -88,7 +88,7 @@ python3 manage.py migrate
 - import models product and order in admin.py
 
 
-#### Part 6 
+### Part 6 
 
 - Set product and customer to have one-to-many relationship with order.
 ```
@@ -106,6 +106,9 @@ python3 manage.py createsuperuser
 python3 manage.py migrate
 python3 manage.py createsuperuser
 ```
+
+### Part 7 
+- Django query demonstration.
 
 
 
